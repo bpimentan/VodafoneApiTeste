@@ -18,6 +18,8 @@
     </author>
 
     <!-- We'll include the Barcode plugin as an example -->
+	
+	<gap:plugin name="org.apache.cordova.camera" version="0.2.9" />
    	
 
 	
