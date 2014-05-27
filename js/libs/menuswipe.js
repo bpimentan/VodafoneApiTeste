@@ -1,5 +1,5 @@
-$( document ).on( "pagecreate", "#swipe-menu", function() {
-    $( document ).on( "swipeleft swiperight", "#swipe-menu", function( e ) {
+$( document ).on( "pagecreate", "#menu-swipe", function() {
+    $( document ).on( "swipeleft swiperight", "#menu-swipe", function( e ) {
         // We check if there is no open panel on the page because otherwise
         // a swipe to close the left panel would also open the right panel (and v.v.).
         // We do this by checking the data that the framework stores on the page element (panel: open).
